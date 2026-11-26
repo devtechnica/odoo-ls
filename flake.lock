@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1795234589,
+        "narHash": "sha256-f/VVvxf5RsQgWVhUtefoca5ktVg0DA2bnkMOcmSnozo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2786a2a72088ecf32aea5b3ec52099e6a7cff78f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "typeshed": "typeshed"
+      }
+    },
+    "typeshed": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1769086363,
+        "narHash": "sha256-6JNVqNYr6jJn5lxDoCF3tKawRM5A3I+JFYsMsG8ztY4=",
+        "owner": "python",
+        "repo": "typeshed",
+        "rev": "80fd73de22748b0fa97d9cc414c0ba854bd6901e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "python",
+        "repo": "typeshed",
+        "rev": "80fd73de22748b0fa97d9cc414c0ba854bd6901e",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
